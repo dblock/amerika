@@ -12,7 +12,7 @@ describe('alexa', function() {
                 // the session must remain open for a user response
                 expect(data.response.shouldEndSession).to.equal(false);
                 // a welcome prompt must be provided which describes what users can ask of the skill
-                expect(data.response.outputSpeech.ssml).to.equal("<speak>I'm your president. Ask me to make America great again.</speak>");
+                expect(data.response.outputSpeech.ssml).to.equal("<speak>I'm your new president. Would you like to make America great again?</speak>");
                 done();
             });
     });

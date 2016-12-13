@@ -10,7 +10,7 @@ module.change_code = 1; // allow this module to be reloaded by hotswap when chan
 app.launch(function(req, res) {
     console.log('app.launch');
     res
-        .say("I'm your president. Ask me to make America great again.")
+        .say("I'm your new president. Would you like to make America great again?")
         .shouldEndSession(false)
 });
 
@@ -47,7 +47,7 @@ app.intent('AMAZON.HelpIntent', {
     function(req, res) {
         console.log('app.AMAZON.HelpIntent');
         res
-            .say("I'm your president. Ask me to make America great again.")
+            .say("I'm your new president. You can ask America to be great again and I will give you one of my priceless quotes.")
             .shouldEndSession(false)
     }
 );
@@ -55,7 +55,10 @@ app.intent('AMAZON.HelpIntent', {
 app.intent('AmerikaIntent', {
         "slots": {},
         "utterances": [
-            "to be great again"
+            "to be great again",
+            "be great again",
+            "great again",
+            "yes"
         ]
     },
     function(req, res) {
