@@ -1,0 +1,4 @@
+AMAZON.StopIntent	stop
+AMAZON.CancelIntent	cancel
+AMAZON.HelpIntent	help
+AmerikaIntent	to be great again
