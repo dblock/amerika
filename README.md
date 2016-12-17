@@ -1,10 +1,14 @@
-# Amerika for Amazon Alexa
+# The Future of America for Amazon Echo (Alexa)
 
 [![Build Status](https://travis-ci.org/dblock/amerika.svg?branch=master)](https://travis-ci.org/dblock/amerika)
 
-I'm your new president. You can ask America to be great again and I will give you one of my priceless quotes using [whatdoestrumpthink.com](https://whatdoestrumpthink.com).
+Available for your own Echo [here](http://alexa.amazon.com/spa/index.html#skills/dp/B01N1RYE51/?ref=skill_dsk_skb_sr_0). Here's [a demo](https://youtu.be/XcKm9Rx8qbo).
 
-Here's [a demo](https://www.youtube.com/watch?v=mF0Hdswzzt0).
+_Ask the future of america to be great again!_
+
+![POTUS](trump.png)
+
+I'm your new president. You can ask America to be great again and I will give you one of my priceless quotes using [whatdoestrumpthink.com](https://whatdoestrumpthink.com).
 
 ### Deploying to AWS Lambda
 
