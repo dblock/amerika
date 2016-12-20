@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dblock/amerika.svg?branch=master)](https://travis-ci.org/dblock/amerika)
 
-Available for your own Echo [here](http://alexa.amazon.com/spa/index.html#skills/dp/B01N1RYE51/?ref=skill_dsk_skb_sr_0). Here's [a demo](https://youtu.be/XcKm9Rx8qbo).
+Available for your own Echo [here](http://alexa.amazon.com/spa/index.html#skills/dp/B01N1RYE51/?ref=skill_dsk_skb_sr_0). Here's [a demo](https://youtu.be/P0-mN8VgZ34).
 
 _Ask the future of america to be great again!_
 
