@@ -1,5 +1,5 @@
 {
-    "name": "artsy",
+    "name": "amerika",
     "version": "0.0.1",
     "description": "Donald Trump for Amazon Alexa.",
     "main": "index.js",
@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "q": "1.4.1",
-        "alexa-app": "^2.3.4",
+        "alexa-app": "^3.0.0",
         "superagent": "2.3.0",
         "underscore": "1.8.3"
     }

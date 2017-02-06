@@ -39,9 +39,9 @@ make build
 ```
 $ make deploy
   ...
-   • creating function         env= function=artsy
-   • created alias current     env= function=artsy version=1
-   • function created          env= function=artsy name=amerika_artsy version=1
+   • creating function         env= function=amerika
+   • created alias current     env= function=amerika version=1
+   • function created          env= function=amerika name=amerika_amerika version=1
 ```
 
 ### Triggers
