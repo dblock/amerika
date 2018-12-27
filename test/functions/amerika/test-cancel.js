@@ -2,7 +2,7 @@ require('../../setup');
 
 describe('cancel', function() {
     it('should respond', function(done) {
-        chai.request(server)
+        chai.request(server.express)
             .post('/alexa/amerika')
             .send(require('./fixtures/CancelIntentRequest.json'))
             .end(function(err, res) {

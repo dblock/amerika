@@ -2,7 +2,7 @@ require('../../setup');
 
 describe('alexa', function() {
     it('should respond', function(done) {
-        chai.request(server)
+        chai.request(server.express)
             .post('/alexa/amerika')
             .send(require('./fixtures/LaunchRequest.json'))
             .end(function(err, res) {

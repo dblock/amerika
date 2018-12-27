@@ -3,5 +3,10 @@ expect = chai.expect;
 chai.use(require('chai-string'));
 chai.use(require('chai-http'));
 
-server = require('../server');
+before(async () => {
+  server = require('../server');
+});
 
+after(async () => {
+  server.stop();
+});

@@ -2,7 +2,7 @@ require('../../setup');
 
 describe('stop', function() {
     it('should respond', function(done) {
-        chai.request(server)
+        chai.request(server.express)
             .post('/alexa/amerika')
             .send(require('./fixtures/StopIntentRequest.json'))
             .end(function(err, res) {

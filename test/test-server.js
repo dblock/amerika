@@ -2,7 +2,7 @@ require('./setup');
 
 describe('alexa-app-server', function() {
   it('should respond as Donald', function(done) {
-    chai.request(server)
+    chai.request(server.express)
       .get('/')
       .end(function(err, res){
         expect(res.status).to.equal(200);

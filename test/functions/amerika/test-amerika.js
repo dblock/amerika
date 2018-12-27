@@ -2,7 +2,7 @@ require('../../setup');
 
 describe('alexa', function() {
     momIntentRequest = function(cb) {
-        chai.request(server)
+        chai.request(server.express)
             .post('/alexa/amerika')
             .send(require('./fixtures/AmerikaIntentRequest.json'))
             .end(function(err, res) {

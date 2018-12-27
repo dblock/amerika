@@ -11,6 +11,6 @@ AlexaAppServer.start({
     server_root: __dirname,
     app_dir: "functions",
     post: function(server) {
-        module.exports = server.express;
+        module.exports = server;
     }
 });
