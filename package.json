@@ -11,6 +11,7 @@
         "test": "make test"
     },
     "dependencies": {
+        "express": "^4.16.4",
         "alexa-app-server": "3.0.2"
     },
     "devDependencies": {
