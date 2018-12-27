@@ -16,7 +16,7 @@ describe('alexa', function() {
     it('makes America great again', function(done) {
         momIntentRequest(function(response) {
             expect(response.outputSpeech.ssml).to.startWith("<speak>");
-            expect(response.outputSpeech.ssml).to.include("<break />");
+            expect(response.outputSpeech.ssml).to.include("<break strength='strong' />");
             expect(response.outputSpeech.ssml).to.endWith("Make America great again!</speak>");
             expect(response.shouldEndSession).to.equal(true);
             done();

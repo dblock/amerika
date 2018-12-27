@@ -67,7 +67,7 @@ app.intent('AmerikaIntent', {
             .then(function(rc) {
                 return res
                     .say(JSON.parse(rc.text).message)
-                    .say("<break />")
+                    .say("<break strength='strong' />")
                     .say("Make America great again!")
                     .send();
             })
