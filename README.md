@@ -8,7 +8,7 @@ _Ask the future of america to be great again!_
 
 ![POTUS](trump.png)
 
-I'm your new president. You can ask America to be great again and I will give you one of my priceless quotes using [whatdoestrumpthink.com](https://whatdoestrumpthink.com).
+I'm your president. You can ask America to be great again and I will give you one of my priceless quotes using [whatdoestrumpthink.com](https://whatdoestrumpthink.com).
 
 ### Deploying to AWS Lambda
 
