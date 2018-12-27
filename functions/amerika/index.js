@@ -9,7 +9,7 @@ module.change_code = 1; // allow this module to be reloaded by hotswap when chan
 
 app.launch(function(req, res) {
     console.log('app.launch');
-    res
+    return res
         .say("I'm your new president. Would you like to make America great again?")
         .shouldEndSession(false)
 });
@@ -22,7 +22,7 @@ app.intent('AMAZON.StopIntent', {
     },
     function(req, res) {
         console.log('app.AMAZON.StopIntent');
-        res.say("Doh svedahniya!");
+        return res.say("Doh svedahniya!");
     }
 );
 
@@ -34,7 +34,7 @@ app.intent('AMAZON.CancelIntent', {
     },
     function(req, res) {
         console.log('app.AMAZON.CancelIntent');
-        res.say("Doh svedahniya!");
+        return res.say("Doh svedahniya!");
     }
 );
 
@@ -46,7 +46,7 @@ app.intent('AMAZON.HelpIntent', {
     },
     function(req, res) {
         console.log('app.AMAZON.HelpIntent');
-        res
+        return res
             .say("I'm your new president. You can ask America to be great again and I will give you one of my priceless quotes.")
             .shouldEndSession(false)
     }
@@ -62,19 +62,19 @@ app.intent('AmerikaIntent', {
         ]
     },
     function(req, res) {
-        superagent
+        return superagent
             .get('https://api.whatdoestrumpthink.com/api/v1/quotes/random')
-            .end(function(err, rc) {
-                if (rc && rc.text) {
-                    res
-                        .say(JSON.parse(rc.text).message)
-                        .say("Make America great again!")
-                        .send();
-                } else {
-                    res.say("Something went wrong.").send();
-                }
+            .then(function(rc) {
+                return res
+                    .say(JSON.parse(rc.text).message)
+                    .say("Make America great again!")
+                    .send();
+            })
+            .catch(function(err) {
+                return res
+                    .say("Something went wrong.")
+                    .send();
             });
-        return false;
     }
 );
 

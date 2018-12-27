@@ -1,20 +1,16 @@
 {
    "intents": [
       {
-         "intent": "AMAZON.StopIntent",
-         "slots": []
+         "intent": "AMAZON.StopIntent"
       },
       {
-         "intent": "AMAZON.CancelIntent",
-         "slots": []
+         "intent": "AMAZON.CancelIntent"
       },
       {
-         "intent": "AMAZON.HelpIntent",
-         "slots": []
+         "intent": "AMAZON.HelpIntent"
       },
       {
-         "intent": "AmerikaIntent",
-         "slots": []
+         "intent": "AmerikaIntent"
       }
    ]
 }

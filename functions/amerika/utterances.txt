@@ -1,7 +1,7 @@
-AMAZON.StopIntent	stop
-AMAZON.CancelIntent	cancel
-AMAZON.HelpIntent	help
-AmerikaIntent	to be great again
-AmerikaIntent	be great again
-AmerikaIntent	great again
-AmerikaIntent	yes
+AMAZON.StopIntent stop
+AMAZON.CancelIntent cancel
+AMAZON.HelpIntent help
+AmerikaIntent to be great again
+AmerikaIntent be great again
+AmerikaIntent great again
+AmerikaIntent yes
