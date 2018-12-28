@@ -1,17 +1,17 @@
 {
-    "name": "amerika",
-    "version": "0.0.1",
-    "description": "Donald Trump for Amazon Alexa.",
-    "main": "index.js",
-    "author": "Daniel Doubrovkine <dblock@dblock.org> (https://code.dblock.org/)",
-    "license": "MIT",
-    "alexa": {
-        "applicationId": "amzn1.echo-sdk-ams.app.999999-9999-9999-9999-999999999999"
-    },
-    "dependencies": {
-        "q": "1.4.1",
-        "alexa-app": "^4.0.1",
-        "superagent": "4.1.0",
-        "underscore": "1.8.3"
-    }
+  "name": "amerika",
+  "version": "0.0.1",
+  "description": "Donald Trump for Amazon Alexa.",
+  "main": "index.js",
+  "author": "Daniel Doubrovkine <dblock@dblock.org> (https://code.dblock.org/)",
+  "license": "MIT",
+  "alexa": {
+    "applicationId": "amzn1.echo-sdk-ams.app.999999-9999-9999-9999-999999999999"
+  },
+  "dependencies": {
+    "q": "1.4.1",
+    "alexa-app": "^4.0.1",
+    "superagent": "4.1.0",
+    "underscore": "1.8.3"
+  }
 }

@@ -19,3 +19,4 @@ test: build
 beautify:
 	npm install -g js-beautify
 	git ls-files "*.js" | xargs js-beautify -r
+	git ls-files "*.json" | xargs js-beautify -r
