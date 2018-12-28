@@ -10,7 +10,7 @@ build:
 
 # Deploy to AWS Lambda
 deploy: build
-	apex deploy --profile dblock
+	apex deploy --profile default
 
 # Test
 test: build
