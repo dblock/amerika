@@ -15,3 +15,7 @@ deploy: build
 # Test
 test: build
 	./node_modules/mocha/bin/mocha
+
+beautify:
+	npm install -g js-beautify
+	git ls-files "*.js" | xargs js-beautify -r
