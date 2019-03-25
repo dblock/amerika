@@ -3,6 +3,7 @@
   "description": "Make America great again!",
   "memory": 128,
   "timeout": 5,
+  "runtime": "nodejs8.10",
   "role": "arn:aws:iam::170239070703:role/alexa-amerika",
   "environment": {
     "ENV": "lambda"
